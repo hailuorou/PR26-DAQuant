@@ -2,14 +2,14 @@
 
 # Domain aware post training quantization for vision transformers in deployment
 
-**Li Wang**\^, **Chao Zeng*\^*, **Miao Zhang**, **Jianlong Wu**, **Liqiang Nie**\*  
+**Li Wang**\^, **Chao Zeng**\^, **Miao Zhang**, **Jianlong Wu**, **Liqiang Nie**\*  
 Harbin Institute of Technology, Shenzhen  
 \* Corresponding author
 \^Equal Contribution
 
 ---
 
-[![RP](h)](https://www.sciencedirect.com/science/article/pii/S003132032500843X)
+[![RP](https://img.shields.io/badge/PR-2026-blue.svg)](https://www.sciencedirect.com/science/article/pii/S003132032500843X)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 <img src="https://img.shields.io/badge/python-≥3.11-blue?style=flat-square" alt="Python">
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?&logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
