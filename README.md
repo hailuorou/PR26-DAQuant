@@ -2,7 +2,7 @@
 
 # Domain aware post training quantization for vision transformers in deployment
 
-**[Li Wang](https://scholar.google.com/citations?user=YXJrMkYAAAAJ&hl=zh-CN&oi=sra)**\^, **Chao Zeng**\^, **[Miao Zhang](https://scholar.google.com/citations?user=XdUDc34AAAAJ&hl=zh-CN&oi=sra)**\*, **[Jianlong Wu](https://scholar.google.com/citations?user=XGeEH-IAAAAJ&hl=zh-CN&oi=ao)**, **Liqiang Nie](https://scholar.google.com/citations?user=yywVMhUAAAAJ&hl=zh-CN&oi=ao)**
+**[Li Wang](https://scholar.google.com/citations?user=YXJrMkYAAAAJ&hl=zh-CN&oi=sra)**\^, **Chao Zeng**\^, **[Miao Zhang](https://scholar.google.com/citations?user=XdUDc34AAAAJ&hl=zh-CN&oi=sra)**\*, **[Jianlong Wu](https://scholar.google.com/citations?user=XGeEH-IAAAAJ&hl=zh-CN&oi=ao)**, **[Liqiang Nie](https://scholar.google.com/citations?user=yywVMhUAAAAJ&hl=zh-CN&oi=ao)**
 Harbin Institute of Technology, Shenzhen  
 \* Corresponding author
 \^Equal Contribution
