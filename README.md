@@ -2,7 +2,7 @@
 
 # Domain aware post training quantization for vision transformers in deployment
 
-**Li Wang**\^, **Chao Zeng**\^, **Miao Zhang**, **Jianlong Wu**, **Liqiang Nie**\*  
+**[Li Wang](https://scholar.google.com/citations?user=YXJrMkYAAAAJ&hl=zh-CN&oi=sra)**\^, **Chao Zeng**\^, **[Miao Zhang](https://scholar.google.com/citations?user=XdUDc34AAAAJ&hl=zh-CN&oi=sra)**\*, **[Jianlong Wu](https://scholar.google.com/citations?user=XGeEH-IAAAAJ&hl=zh-CN&oi=ao)**, **Liqiang Nie](https://scholar.google.com/citations?user=yywVMhUAAAAJ&hl=zh-CN&oi=ao)**
 Harbin Institute of Technology, Shenzhen  
 \* Corresponding author
 \^Equal Contribution
@@ -106,7 +106,10 @@ If you find this work useful in your research, please cite our paper:
 }
 ```
 
----
+## License
+
+This project is released under the Apache License 2.0. See [`LICENSE`](./LICENSE) for details.
+
 
 ## Related Project
 [SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models](https://github.com/mit-han-lab/smoothquant)
