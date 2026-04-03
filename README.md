@@ -1,4 +1,22 @@
-# DAQuant
+<div align="center">
+
+# Domain aware post training quantization for vision transformers in deployment
+
+**Li Wang**\^, **Chao Zeng*\^*, **Miao Zhang**, **Jianlong Wu**, **Liqiang Nie**\*  
+Harbin Institute of Technology, Shenzhen  
+\* Corresponding author
+\^Equal Contribution
+
+---
+
+[![RP](h)](https://www.sciencedirect.com/science/article/pii/S003132032500843X)
+[![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+<img src="https://img.shields.io/badge/python-≥3.11-blue?style=flat-square" alt="Python">
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?&logo=pytorch&logoColor=white)](https://pytorch.org/get-started/locally/)
+
+</div>
+
+---
 
 Despite the increasing popularity of Vision Transformers (ViTs) on vision tasks, their deployment on mobile devices presents two main challenges: performance degradation due to the necessary model compression amidst computational constraints, and accuracy drop stemming from domain shift effects. Although existing post-training quantization (PTQ) methods can reduce computational load for ViTs, they often fail under extreme low-bit conditions and domain shift scenarios. To address the two challenges, this paper introduces a novel Domain Aware Post-training Quantization (**DAQuant**) approach that simultaneously tackles extreme model compression and domain adaptation for ViTs in deployment. **DAQuant** employs a distribution-aware smoothing technique to mitigate outlier effects in ViT activations and employs learnable activation clipping (LAC) to minimize quantization errors. Additionally, we propose an effective domain alignment strategy to improve the model’s generalizability, which preserves model’s optimization on source domain while enhancing generalization ability on the target domain. DAQuant demonstrates superior performance in both quantization error and generalization capacity, outperforming existing quantization methods significantly in real-device deployment scenarios.
 
@@ -72,6 +90,23 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
 --wbits 4 --abits 16 --lwc --lac --wrc \
 --real_quant --save_dir ./real_quant/deit-small-patch16-224-w4a16
 ```
+
+## Citation
+
+If you find this work useful in your research, please cite our paper:
+
+```bibtex
+@article{wang2025domain,
+  title={Domain aware post training quantization for vision transformers in deployment},
+  author={Wang, Li and Zeng, Chao and Zhang, Miao and Wu, Jianlong and Nie, Liqiang},
+  journal={Pattern Recognition},
+  pages={112182},
+  year={2025},
+  publisher={Elsevier}
+}
+```
+
+---
 
 ## Related Project
 [SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models](https://github.com/mit-han-lab/smoothquant)
